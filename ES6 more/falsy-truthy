@@ -1,0 +1,23 @@
+Falsy Values (JS এ শুধু এইগুলোই falsy)
+false
+0
+"" (empty string)
+null
+undefined
+NaN
+Truthy Values (Falsy ছাড়া বাকি সব)
+"hello"
+1 (যেকোনো non-zero number)
+"0" (string zero)
+[] (empty array)
+{} (empty object)
+true
+" " (space string);
+console.log(!true);   // false
+console.log(!false);  // true
+console.log(!0);      // true  (0 falsy)
+console.log(!"hi");   // false (string truthy)
+console.log(!!"hello"); // true
+console.log(!!0);       // false
+console.log(!![]);      // true
+console.log(!!null);    // false
