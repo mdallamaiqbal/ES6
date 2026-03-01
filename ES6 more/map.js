@@ -28,4 +28,4 @@ const names=products.map((pd,index,productArray)=>{
     return upperCase
 });
 console.log(names);
-
+/* map() → প্রতিটা element modify করে new array বানায় */
