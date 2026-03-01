@@ -13,4 +13,6 @@ const students=[
 ]
 const studentAge=students.filter(std=>std.age>=25);
 console.log(studentAge);
-/* filter() → condition অনুযায়ী element select করে new array বানায় */
+/* filter() হলো array method
+যেটা condition অনুযায়ী element বাছাই করে
+এবং একটা নতুন filtered array return করে। */
